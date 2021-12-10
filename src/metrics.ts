@@ -1,5 +1,5 @@
 import * as client from "prom-client";
-import * as express from "express";
+import express from "express";
 import config from "./config";
 import { LogService } from "matrix-bot-sdk";
 

@@ -15,6 +15,9 @@ export interface BotConfig {
     };
     telegram: {
         enabled: boolean;
+        apiId: number;
+        apiHash: string;
+        session?: string;
         botToken: string;
         roomId: string;
         channelId: number;
